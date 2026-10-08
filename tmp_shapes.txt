@@ -1,0 +1,11 @@
+Layer input_image:
+Layer densenet121:
+  input_shape: (None, 320, 320, 3)
+  output_shape: (None, 10, 10, 1024)
+Layer gap:
+Layer head_bn:
+Layer drop1:
+Layer fc1:
+Layer fc_bn:
+Layer drop2:
+Layer predictions:

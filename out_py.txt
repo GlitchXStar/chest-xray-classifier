@@ -1,0 +1,7 @@
+densenet type: <class 'list'>
+sub_densenet inputs: (None, 320, 320, 3)
+sub_densenet outputs: [(None, 10, 10, 32), (None, 10, 10, 1024)]
+conv shape: (1, 10, 10, 32)
+base shape: (1, 10, 10, 1024)
+feat shape: (10, 10, 1024)
+gap shape: (None, 1024)

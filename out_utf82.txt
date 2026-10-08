@@ -1,0 +1,96 @@
+﻿python : WARNING: All log 
+messages before 
+absl::InitializeLog() is 
+called are written to 
+STDERR
+At line:1 char:26
++ ... s\activate; python s
+cripts/evaluate_reliabilit
+y.py > evaluate_out.txt 
+...
++                 ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (W  
+  ARNING: All lo...itte   
+ n to STDERR:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+I0000 
+00:00:1791244728.576081   
+24372 port.cc:153] oneDNN 
+custom operations are on. 
+You may see slightly 
+different numerical 
+results due to 
+floating-point round-off 
+errors from different 
+computation orders. To 
+turn them off, set the 
+environment variable 
+`TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages 
+before 
+absl::InitializeLog() is 
+called are written to 
+STDERR
+I0000 
+00:00:1791244730.119292   
+24372 port.cc:153] oneDNN 
+custom operations are on. 
+You may see slightly 
+different numerical 
+results due to 
+floating-point round-off 
+errors from different 
+computation orders. To 
+turn them off, set the 
+environment variable 
+`TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 
+00:00:1791244731.812480   
+24372 
+cpu_feature_guard.cc:227] 
+This TensorFlow binary is 
+optimized to use 
+available CPU 
+instructions in 
+performance-critical 
+operations.
+To enable the following 
+instructions: SSE3 SSE4.1 
+SSE4.2 AVX AVX2 AVX_VNNI 
+FMA, in other operations, 
+rebuild TensorFlow with 
+the appropriate compiler 
+flags.
+WARNING:tensorflow:TensorF
+low GPU support is not 
+available on native 
+Windows for TensorFlow >= 
+2.11. Even if CUDA/cuDNN 
+are installed, GPU will 
+not be used. Please use 
+WSL2 or the 
+TensorFlow-DirectML 
+plugin.
+E0000 
+00:00:1791244733.088646   
+24372 util.cc:131] oneDNN 
+supports DT_HALF only on 
+platforms with AVX-512. 
+Falling back to the 
+default Eigen-based 
+implementation if present.
+C:\Users\Gaurav Tiple\Down
+loads\chestxray-project-ma
+in\chestxray-project-main\
+src\uncertainty.py:53: 
+RuntimeWarning: invalid 
+value encountered in 
+divide
+  heatmap /= vmax

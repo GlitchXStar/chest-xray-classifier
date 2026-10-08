@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML datasets
+data/
+*.jpg
+*.jpeg
+*.png
+*.dcm
+
+# Model weights / checkpoints
+*.keras
+*.h5
+*.ckpt
+checkpoints/
+outputs/weights/
+outputs/*.keras
+
+# Experiment outputs
+experiments/
+outputs/
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
